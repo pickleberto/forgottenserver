@@ -10,6 +10,11 @@
 #include "const.h"
 #include "enums.h"
 
+template < typename E >
+auto format_as(E e) {
+	return fmt::underlying(e);
+}
+
 void printXMLError(const std::string& where, const std::string& fileName, const pugi::xml_parse_result& result);
 
 std::string transformToSHA1(const std::string& input);
