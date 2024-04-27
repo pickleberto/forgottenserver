@@ -153,6 +153,22 @@ AREA_CIRCLE3X3 = {
 	{0, 0, 1, 1, 1, 0, 0}
 }
 
+-- trying to mimic the exact same area of the Question5 video,
+-- here 0 means no effect;
+-- 1 means a tile in the range of the spell;
+-- 2 means a player with no effect showing in the tile;
+-- 3 means player and effect;
+AREA_FRIGO = {
+	{0, 0, 0, 1, 1, 0, 0, 0},
+	{0, 0, 0, 1, 1, 1, 0, 0},
+	{0, 0, 1, 1, 1, 1, 1, 0},
+	{1, 1, 1, 3, 1, 1, 1, 1},
+	{0, 0, 1, 1, 1, 1, 1, 0},
+	{0, 0, 0, 1, 1, 1, 0, 0},
+	{0, 0, 0, 1, 1, 0, 0, 0}
+}
+
+
 -- Crosses
 AREA_CROSS1X1 = {
 	{0, 1, 0},
